@@ -11,7 +11,7 @@ ligand or fall within a distance of 5 Å) and consequently identify
 multinuclear sites, if present.
 
 - Draw a graph representing the site and its first coordination sphere (as
-shown in Figure 1).
+shown in the figure).
 
 <img width="582" height="453" alt="BEF_BE_130_B_3259" src="https://github.com/user-attachments/assets/6ba7c3db-7bc3-4f8d-b563-c28ba3362285" />
 

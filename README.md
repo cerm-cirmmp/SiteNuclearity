@@ -1,6 +1,20 @@
 ## SiteNuclearity
 
-# SiteNuclearity
+The SiteNuclearity is used to characterize metal sites in metalloprotein structures.
+Specifically, it can be used to:
+
+- Determine the first coordination sphere of metals, based on a distance
+threshold.
+
+- Determine which metals belong to the same site (i.e., those that share a
+ligand or fall within a distance of 5 Å) and consequently identify
+multinuclear sites, if present.
+
+- Draw a graph representing the site and its first coordination sphere (as
+shown in Figure 1).
+
+
+## Usage
 
 To use SiteNuclearity you must have Java version 17 or greater.
 

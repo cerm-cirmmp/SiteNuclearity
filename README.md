@@ -11,3 +11,22 @@ In that case, you can download the compressed tar file from [https://adoptium.ne
 ```
 /opt/<java-version>/bin/java -jar SiteNuclearity-1.0.jar
 ```
+
+Running SiteNuclearity without options will show a help with the various options available
+```
+usage: SiteNuclearity
+ -d,--minimal_distance <arg>   Minimal distance for metals in the same
+                               site. Default is 5.0 A.
+ -e,--excluded_donors <arg>    Chemical symbols of the atoms (separated by
+                               commas) excluded from metal ligands.
+                               Default is C and H.
+ -m,--metal <arg>              Chemical symbol of the metal of interest.
+                               Default is all metals.
+ -o,--overwrite                Overwrite existing files and directories.
+ -p,--pdb <arg>                Local input PDB file.
+ -t,--threshold <arg>          Coordination distance threshold. Default is
+                               2.8 A.
+ -w,--workdir <arg>            Directory where to find the input PDB files
+                               and to write outputs. Default is ./
+```
+

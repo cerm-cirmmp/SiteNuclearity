@@ -13,6 +13,7 @@ In that case, you can download the compressed tar file from [https://adoptium.ne
 ```
 
 Running SiteNuclearity without options will show a help with the various options available
+
 ```
 usage: SiteNuclearity
  -d,--minimal_distance <arg>   Minimal distance for metals in the same
@@ -30,3 +31,8 @@ usage: SiteNuclearity
                                and to write outputs. Default is ./
 ```
 
+An example of use is:
+
+```
+/opt/<java-version>/bin/java -jar SiteNuclearity-1.0.jar -p 12ca.pdb
+```
